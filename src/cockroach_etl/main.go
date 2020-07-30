@@ -16,4 +16,7 @@ func main() {
 	}
 	defer cr.Disconnect()
 
+	cr.SendQuery(ETL1())
+	cr.SendQuery(ETL2())
+
 }
